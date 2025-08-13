@@ -1,0 +1,19 @@
+# --- UI for interaction ---
+streamlit>=1.30.0
+
+# --- LangChain + Ollama Integration ---
+langchain>=0.1.16
+ollama>=0.1.9
+
+# --- Stable Diffusion Generation ---
+torch>=2.0.0
+diffusers>=0.25.0
+transformers>=4.35.0
+accelerate>=0.25.0
+Pillow>=9.0.0
+
+# --- Trend Retriever (DuckDuckGo) ---
+duckduckgo-search>=4.0.0
+
+# --- Optional ---
+python-dotenv>=1.0.1  # (if you use .env later)
